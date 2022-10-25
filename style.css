@@ -9,22 +9,26 @@
     display: flex;
 }
 .white {
+    
     color: white;
     margin-top: 20px;
     margin-left: 30px;
     font-size: 2.4pc;
 }
+.home {
+    text-decoration:underline crimson;
+}
+
 .headthree {
     display: flex;
     margin-left: 300px;
     justify-content: space-between;
     width: 350px;
 }
-.headthree:hover {
+.red {
     color: crimson;
-    text-decoration: underline;
-    cursor: pointer;
 }
+
 .button {
     margin-top: 20px;
     margin-left: 350px;
@@ -41,7 +45,7 @@
 }
 .float {
     background-color: lightgray;
-    height: 500px;
+    height: 300px;
     width: 1365px;
 }
 .first {
@@ -49,7 +53,7 @@
     height: 270px;
     width: 350px;
     float: left;
-    margin-top: 180px;
+    margin-top: -50px;
     margin-left: 50px;
     border: 3px solid crimson;
    
@@ -92,7 +96,7 @@
     height: 270px;
     width: 350px;
     float: left;
-    margin-top: 180px;
+    margin-top: -50px;
     margin-left: 100px;
     border: 3px solid crimson;
     
@@ -135,7 +139,7 @@
     height: 270px;
     width: 350px;
     float: right;
-    margin-top: 180px;
+    margin-top: -50px;
     margin-right: 70px;
     border: 3px solid crimson;
 }
@@ -237,6 +241,44 @@
     border: 5px solid crimson;
     
 }
+.para {
+    background-color:lightgray;
+    width: 1165px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+    font-size: larger;
+    font-weight: bold;
+}
+.para2 {
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-left: 500px;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.para3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    width: 1165px;
+    margin-top: 100px;
+    font-size: larger;
+    font-weight: bold;
+    background-color:lightgray;
+}
+.para2 strong {
+    font-size: 2pc;
+}
+.para3 strong {
+    font-size: 2pc;
+}
+.para strong {
+    font-size: 2pc;
+}
 .firsta2 {
 
     background-color: lightblue;
@@ -282,8 +324,8 @@
    
 }
 .last {
-    margin-top: 100px;
-    height: 1000px;
+    margin-top: 0px;
+    height: 1500px;
     width: 1365px;
     background-color: lightgray;
     
@@ -299,6 +341,11 @@
     height: 100px;
     width: 100px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4pc;
     background-color: aqua;
     border: 5px solid rgb(49, 170, 170);
 }
@@ -306,3 +353,32 @@
     margin: 30px;
     border-top: 3px solid crimson;
 }
+.eight {
+    display: flex;
+    justify-content: space-evenly;
+}
+.itemthree {
+    height: 100px;
+    width: 900px;
+}
+footer {
+    background-color: rgb(49, 170, 170);;
+    display: flex;
+    width: 1365px;
+
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+    list-style: none;
+    width: 20%;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 500px;
+    font-size: 1.9pc;
+  }
